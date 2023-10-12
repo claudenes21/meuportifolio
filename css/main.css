@@ -1,0 +1,95 @@
+*{ /*reset para navegator*/
+    margin: 0; /* TOP RIGTH BOTTOM LEFT margem*/
+    padding: 0; /*prenchimento*/
+}
+.body{
+    width: 100%; /*altura*/
+    height: 100%; /*larguta*/
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(197, 73, 73));
+    background-repeat: no-repeat;
+}
+.imagem{/*div*/
+    display: flex;
+    justify-content: center;
+}
+.imagem img{ /*imagem do avatar*/
+    width: 170px;
+    border-radius: 200px;
+    margin-top: 150px;
+}
+.nome{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600px;
+    color: rgba(178, 148, 0, 0.813);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.redes-sociais{
+    display: flex;
+    margin-top: 10px; /* margin superior*/
+    justify-content: center; /*centralizar o texto*/
+    align-items: center;
+  
+}
+.redes-sociais a{
+    text-decoration: none;
+}
+.icone, .email{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 5px 5px rgba(224, 23, 23, 0.3); /* caixa de sombra*/
+    margin: 5px;
+    overflow: hidden; /* efeito mascara */
+
+}
+.icone i, .email i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align:  center; /*alinha texto */
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(54, 201, 201); 
+    color: rgb(244, 244, 248); /* cor do texto*/
+    cursor: pointer;
+}
+.icone span a{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 23px;
+    color: rgba(224, 151, 42, 0.913);
+    font-size: 15px;
+    line-height: 35px;
+}
+.icone:hover{
+    width: 125px;
+    background-color: rgb(22, 84, 122);
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    width: 700px;
+    height: 130px;
+    padding:20px ;
+    border-radius: 15px;
+    color: beige;
+    background: darkblue;
+    overflow: hidden;
+    box-shadow: 8px 8px 17px rgba(224, 23, 23, 0.3);
+}
+h2{
+    margin-top: 25px;
+    text-align: center;
+    color: darkblue;
+        
+}
