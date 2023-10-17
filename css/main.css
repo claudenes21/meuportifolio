@@ -7,7 +7,7 @@
     height: 100%; /*larguta*/
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgb(197, 73, 73));
+    background: linear-gradient(rgb(70, 230, 155));
     background-repeat: no-repeat;
 }
 .imagem{/*div*/
@@ -75,21 +75,54 @@
 }
 .texto{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    margin:auto ;
+    margin:  auto ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
     width: 700px;
-    height: 130px;
-    padding:20px ;
+    height: 120px;
+    padding:30px;
     border-radius: 15px;
     color: beige;
     background: darkblue;
     overflow: hidden;
     box-shadow: 8px 8px 17px rgba(224, 23, 23, 0.3);
 }
-h2{
-    margin-top: 25px;
+.sobre-mim{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: darkblue;
-        
+    font-size: 25px;
+    color: rgb(233, 233, 236);
+    line-height: 35px;      
 }
+.linguagens{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: darkblue;
+    margin-top:45px;
+    margin-bottom: 45px;
+}
+.projetos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.projetos img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 270px;
+    box-shadow: 8px 8px 4px black;
+    border-radius: 12px;
+}
+
