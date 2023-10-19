@@ -7,7 +7,7 @@
     height: 100%; /*larguta*/
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgb(70, 230, 155));
+    background: linear-gradient(rgb(246, 246, 65));
     background-repeat: no-repeat;
 }
 .imagem{/*div*/
@@ -15,9 +15,11 @@
     justify-content: center;
 }
 .imagem img{ /*imagem do avatar*/
-    width: 170px;
-    border-radius: 200px;
+    width: 270px;
+    border-radius: 130px;
     margin-top: 150px;
+    box-shadow: 8px 8px 17px rgba(224, 23, 23, 0.3);
+
 }
 .nome{
     margin-top: 10px;
@@ -93,7 +95,7 @@
 }
 .sobre-mim{
     position: absolute;
-    top: 10px;
+    top: 10px; /* move o topo do h2 para o centro vertical*/
     display: flex;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -102,27 +104,60 @@
     color: rgb(233, 233, 236);
     line-height: 35px;      
 }
-.linguagens{
+.subtitulo{
+    font-weight: 800px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    color: darkblue;
-    margin-top:45px;
-    margin-bottom: 45px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
-.projetos{
+.linguagens{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.projetos img{
+.linguagens img{
     display: flex;
     justify-content: center;
     align-items: center;
+    width:300px ;
+    border-radius: 10px;
     margin: 5px;
-    width: 270px;
-    box-shadow: 8px 8px 4px black;
-    border-radius: 12px;
+    box-shadow: 8px 8px 17px rgba(224, 23, 23, 0.3);
 }
-
+.projetos{
+    margin-top: 40px;
+    flex-direction: column;
+}
+.item{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(4, 4, 53);
+    border: 2px solid rgb(63, 184, 245);
+    border-radius: 50px;
+    width: 650px; /*largura*/
+    height: 40px; /*altura*/
+    font-size: 24px;
+    background: rgb(218, 236, 236);
+    box-shadow: 8px 8px 17px rgba(224, 23, 23, 0.3);
+    cursor: pointer;
+     
+}
+.item:hover{
+    transition: 0.1s;
+    background-color: rgb(128, 199, 243);
+}
+#movie{
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+#movie.active{
+    display: block;
+}
