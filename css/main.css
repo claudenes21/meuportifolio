@@ -35,6 +35,7 @@
     margin-top: 10px; /* margin superior*/
     justify-content: center; /*centralizar o texto*/
     align-items: center;
+    padding-bottom: 10px;
   
 }
 .redes-sociais a{
@@ -160,4 +161,64 @@
 }
 #movie.active{
     display: block;
+}
+.rodape p{
+    color: darkblue;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* recurso CSS que renderiza o conteudo do site e adpate para diversas resoluções */
+/* resolução de 700px*/
+@media (max-width: 700px){
+    .imagem img{
+        width: 150px;
+        border-radius: 130px;
+        margin-top: 25px;
+    }
+    .texto {
+        width: 290px;
+        height: 300px;
+    }
+    .linguagens img {
+        width: 165px;
+    }
+    .subtitulo {
+        font-size: 25px;
+    }
+    .item {
+        width: 350px;
+
+    }
+    #move {
+        width: 350px;
+    }
+
+}
+@media (max-width: 500px) {
+    .imagem img{
+        width: 120px;
+        border-radius: 60px;
+        margin-top: 20px;
+    }
+    .texto {
+        width: 270px;
+        height: 260px;
+    }
+    .linguagens img {
+        width: 120px;
+    }
+    .subtitulo {
+        font-size: -125px;
+    }
+    .item {
+        width: 280px;
+    }
+    #move {
+        width: 300px;
+    }
 }
