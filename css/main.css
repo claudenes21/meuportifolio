@@ -13,7 +13,7 @@
 .imagem{/*div*/
     display: flex;
     justify-content: center;
-}
+}   
 .imagem img{ /*imagem do avatar*/
     width: 270px;
     border-radius: 130px;
